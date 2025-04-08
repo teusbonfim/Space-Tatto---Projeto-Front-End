@@ -1,5 +1,5 @@
 
-# 💉 Espacetatto
+# 💉Spacetatto
 
 Site institucional para o estúdio de tatuagem **Espacetatto**, desenvolvido com foco em apresentar o portfólio artístico, disponibilizar desenhos prontos e permitir o agendamento online de sessões de tatuagem.
 
@@ -29,6 +29,7 @@ Este projeto foi criado com HTML, CSS e JavaScript, e conta com recursos como:
 ├── index.html
 ├── style.css
 ├── script.js
+├── README.md
 ├── /Imagens
 │   ├── logoSpaceTatto.png
 │   ├── logoSpaceTattocolorido.png
