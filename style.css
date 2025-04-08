@@ -456,6 +456,9 @@ nav li a:hover {
   background-color: rgba(0, 0, 0, 0.6);
   font-family: ttnorms;
 }
+#loginModal{
+  display: none;
+}
 
 .modal-content {
   position: relative;
@@ -869,7 +872,7 @@ footer {
 
   .container-section {
     width: 88vw;
-    height: 30%;
+    height: 85vh;
   }
 
   .slider-wrapper .image-list .image-item {
@@ -894,7 +897,6 @@ footer {
   }
 
   footer {
-    margin-top: 10%;
     width: 100%;
     background-color: #111;
     color: #fff;
@@ -1192,7 +1194,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 88vw;
-    height: 87%;
+    height: 18vh;
     margin: 3vw auto 0 auto;
     margin-bottom: 5vh;
     gap: 1.3vh;
@@ -1261,7 +1263,6 @@ footer {
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    margin-bottom: 10%;
   }
 
   .container-img .img-tatto{
