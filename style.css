@@ -210,6 +210,8 @@ nav li a:hover {
 .container-wrapper {
   max-width: 104.1vw;
   width: 85%;
+  transform: scale(1);
+  transform-origin: top;
 }
 
 .slider-wrapper {
@@ -1289,7 +1291,10 @@ footer {
   }
 
   .container-wrapper {
-    margin-bottom: 5vh;
+    width: 40%;
+    margin-bottom: 40%;
+    transform: scale(1.9);
+
   }
 
   .slider-wrapper .image-list .image-item {
