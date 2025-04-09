@@ -441,6 +441,10 @@ nav li a:hover {
 /* Última seção com formulário de agendamento ou contato */
 
 /* Estilo do modal de login/registro */
+#loginModal{
+  display: none;
+}
+
 .modal {
   display: flex;
   justify-content: center;
@@ -455,9 +459,6 @@ nav li a:hover {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.6);
   font-family: ttnorms;
-}
-#loginModal{
-  display: none;
 }
 
 .modal-content {
@@ -897,7 +898,7 @@ footer {
   }
 
   footer {
-    margin-top: 8%;
+    margin-top: 10%;
     width: 100%;
     background-color: #111;
     color: #fff;
@@ -1195,7 +1196,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 88vw;
-    height: 18vh;
+    height: 87%;
     margin: 3vw auto 0 auto;
     margin-bottom: 5vh;
     gap: 1.3vh;
@@ -1264,6 +1265,7 @@ footer {
     align-items: center;
     justify-content: center;
     border-radius: 100px;
+    margin-bottom: 10%;
   }
 
   .container-img .img-tatto{
