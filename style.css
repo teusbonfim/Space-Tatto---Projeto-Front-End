@@ -872,7 +872,7 @@ footer {
 
   .container-section {
     width: 88vw;
-    height: 85vh;
+    height: 30%;
   }
 
   .slider-wrapper .image-list .image-item {
@@ -897,6 +897,7 @@ footer {
   }
 
   footer {
+    margin-top: 8%;
     width: 100%;
     background-color: #111;
     color: #fff;

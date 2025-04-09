@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function handleLogin(email, password, remember) {
         if (email === USER_EMAIL && password === USER_PASSWORD) {
             if (remember) {
-                localStorage.setItem("userLogged", "Teste");
+                localStorage.setItem("isLoggedIn", "true");
             }
             updateLoginUI("Teste");
             closeModal();
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (logoutBtn) {
         logoutBtn.addEventListener("click", () => {
-            localStorage.removeItem("userLogged");
+            localStorage.removeItem("isLoggedIn");
             resetLoginUI();
             atualizarBotaoAgendar();
         });
@@ -278,11 +278,11 @@ function estaLogado() {
 
 function atualizarBotaoAgendar() {
     if (estaLogado()) {
-        loginRegistroDiv.innerHTML = `Agendar`;
+        loginRegistroDiv.innerHTML = `Agendar <u>agora</u>`;
         loginRegistroDiv.classList.add("botao-agendar");
 
         loginRegistroDiv.onclick = function () {
-            document.getElementById("popupAgendamento").style.display = "block";
+            document.getElementById("btnAgendamento").style.display = "block";
         };
     } else {
         loginRegistroDiv.innerHTML = `Entre/Registre para <u>agendar</u>`;
